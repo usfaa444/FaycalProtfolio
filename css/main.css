@@ -1,0 +1,44 @@
+#profile-image{
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+body {
+    background-image: url('../img/background/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#center{
+    text-align: center;
+}
+
+hr {
+    margin-top: 30px;
+    border: 0;
+    width: 650px;
+    height: 0;
+    box-shadow: 0 0 10px 4px #ffffff;
+}
+
+li {
+    list-style-image: url("../img/icones/project.png");
+}
