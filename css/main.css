@@ -27,18 +27,160 @@ ul {
     text-align: left;
 }
 
+ol {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
 #center{
     text-align: center;
 }
 
 hr {
-    margin-top: 30px;
+    margin-top: 10px;
     border: 0;
     width: 650px;
     height: 0;
     box-shadow: 0 0 10px 4px #ffffff;
 }
 
-li {
+ul.projects li {
     list-style-image: url("../img/icones/project.png");
+}
+
+.right ol.items li {
+    font-family: 'Cooper Black', serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.left ul.items li {
+    font-family: 'Cooper Black', serif;
+    font-size: 15px;
+    color: #abe0fc;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Cooper Black',serif;
+}
+
+.right h2.title {
+    font-family: 'Cooper Black', serif;
+    color: #fa6d22;
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.left h2.title {
+    font-family: 'Cooper Black', serif;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.summary {
+    font-size: 15px;
+    font-family: 'Cooper Black', serif;
+    color: #abe0fc;
+}
+
+.split {
+    height: 90%;
+    width: 45%;
+    z-index: 1;
+    top: 0;
+    position: fixed;
+    border-radius: 30px;
+    overflow-x: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.right {
+    right: 0;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 30px;
+}
+
+.left {
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 30px;
+    position: center;
+}
+
+.centered {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.about-image{
+    height: 175px;
+    width: 175px;
+    border-radius: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.description {
+    font-family: "Bodoni MT", serif;
+    margin-top: 0;
+}
+
+.parent-center_horizontal{
+    margin: 1rem;
+    padding: 0;
+    text-align: center;
+}
+
+.child_center_horizontal {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.right img.mood-image-content{
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+    border-radius: 20px;
+    display: block;
+}
+
+.left img.mood-image-content{
+    height: 35px;
+    width: 100px;
+    margin: 15px;
+    display: block;
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.movie-definition {
+    margin-left: 25px;
+    margin-top: 0;
+}
+
+dl dt {
+    color: #fa6d22;
+}
+
+dl dd {
+    font-family: "Bodoni MT", serif;
 }
