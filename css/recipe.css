@@ -1,0 +1,50 @@
+.heading{
+    width: 100%;
+    color: #A4A400;
+    background: #F0F0F0;
+    font-family: Lucida Sans Unicode, serif;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 18pt;
+}
+
+h2.main {
+    font-size: 22pt;
+    text-align: center;
+}
+
+body {
+    background: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, serif;
+}
+
+a {
+    color: #A4A400;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.direction {
+    font-weight: bold;
+}
+
+.comment {
+    background: #e3e397;
+    font-style: italic;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.mood-image-content{
+    position: inherit;
+    height: 35px;
+    width: 100px;
+    margin: 15px;
+    display: block;
+}
