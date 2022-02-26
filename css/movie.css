@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    background: url("../img/movie_review_images/background.png");
+    font-size: 8pt;
+    font-family: Verdana, serif;
+    text-align: center;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.banner-bg {
+    width: 100%;
+    background: url("../img/movie_review_images/bannerbg.png") repeat-x;
+}
+
+.title {
+    font-size: 24pt;
+    font-family: Tahoma, serif;
+    text-align: center;
+    text-shadow: 3px 3px #999999;
+}
+
+.container {
+    display: inline-grid;
+    width: 800px;
+    grid-template-columns: 275px 275px 250px;
+    grid-template-rows: 83px 325px 600px 25px;
+    border: 4px solid gray;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+
+.movie-image {
+    grid-area: 1 / 3 / 3 / 4;
+    background: #fa6d22;
+    border-top-right-radius: 20px;
+}
+
+.movie-banner {
+    grid-area: 1 / 1 / 2 / 3;
+    background: url("../img/movie_review_images/rbg.png");
+    border-top-left-radius: 20px;
+}
+
+.movie-comments {
+    grid-area: 2 / 1 / 4 / 3;
+    padding: 2%;
+}
+
+.movie-infos {
+    grid-area: 3 / 3 / 4 / 4;
+    background: #A2B964;
+    padding-left: 10pt;
+}
+
+.movie-footer {
+    grid-area: 4 / 1 / 5 / 4;
+    background: #A2B964;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.movie-image-content {
+    border-top-right-radius: 20px;
+}
+
+.banner-image {
+    border-top-left-radius: 20px;
+}
+
+.banner-title {
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    vertical-align: center;
+}
+
+.movie-definitions dt {
+    font-weight: bold;
+    margin-top: 10pt;
+}
+
+.links ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.comments-container {
+    column-count: 2;
+    column-gap: 2%;
+    padding: 0;
+    margin: 0;
+}
+
+.review {
+    font-weight: bold;
+    font-size: 8pt;
+    background: #E8DC9B;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.comment-text {
+    margin: 0;
+    padding: 0;
+}
+
+.validators {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
+}
+
+.banner-text {
+    position: relative;
+    left: 0;
+    bottom: 15px;
+}
+
+.footer-text {
+    position: relative;
+    bottom: 5px
+}
+
+.comment-image {
+    float: left;
+    margin-right: 5px;
+}
+
+.review-image {
+    float: left;
+    margin-right: 5px;
+}
+
+.reviewer-publisher {
+    font-style: italic;
+}
+
+.user {
+    margin-bottom: 20pt;
+}
