@@ -1,0 +1,26 @@
+body {
+    background: url('../img/background/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.bg-main {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 90vh;
+    margin: auto;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#date {
+    font-size: 175px;
+    color: white;
+    font-family: "Tw Cen MT Condensed", serif;
+}
+
+.centered {
+    width: 100%;
+    text-align: center;
+    background-color: #A4A400;
+}
